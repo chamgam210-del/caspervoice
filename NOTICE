@@ -1,0 +1,28 @@
+CasperVoice
+Copyright (c) 2026 Casper Products. Licensed under the MIT License (see LICENSE).
+
+This library bundles or depends on the following third-party work.
+
+Silero VAD (bundled as assets/vad/silero_vad.onnx)
+  Copyright (c) 2020-present Silero Team
+  MIT License
+  https://github.com/snakers4/silero-vad
+
+ONNX Runtime (dependency: com.microsoft.onnxruntime:onnxruntime-android)
+  Copyright (c) Microsoft Corporation
+  MIT License
+  https://github.com/microsoft/onnxruntime
+
+OkHttp (dependency: com.squareup.okhttp3:okhttp)
+  Copyright (c) Square, Inc.
+  Apache License 2.0
+  https://github.com/square/okhttp
+
+kotlinx.coroutines (dependency: org.jetbrains.kotlinx:kotlinx-coroutines-android)
+  Copyright (c) JetBrains s.r.o.
+  Apache License 2.0
+  https://github.com/Kotlin/kotlinx.coroutines
+
+The speech-to-text, text-to-speech and chat services the library can talk to
+(OpenAI, Groq, Deepgram, ElevenLabs and others) are not part of it. Using them
+is subject to each provider's own terms, with keys the host app supplies.

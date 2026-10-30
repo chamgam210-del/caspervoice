@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.kotlin/
+
+# Keys for the on-phone tests and the sample app. Never commit them.
+test-keys/
+env.properties
